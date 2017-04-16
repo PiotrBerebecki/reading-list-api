@@ -1,12 +1,11 @@
 const express = require('express');
-const url = require('url');
 const database = require('./database');
 
 const app = express();
 
 
-app.get('/tags/', (req, res) => {
-  const requestedTag = url.parse(req.url, true).query.q;
+app.get('/tag/', (req, res) => {
+  const requestedTag = req.query.q;
 
   const articlesToSend = Object.keys(database)
     .filter(key => database[key].tags.includes(requestedTag))

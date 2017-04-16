@@ -1,6 +1,7 @@
 module.exports = {
   '1': {
     id: 1,
+    slug: 'react-componentdidmount',
     tags: ['react'],
     title: 'React ComponentDidMount',
     body: 'About React Lifecycle Methods: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -8,6 +9,7 @@ module.exports = {
   },
   '2': {
     id: 2,
+    slug: 'react-a-javascript-library',
     tags: ['react', 'javascript'],
     title: 'React - A JavaScript Library',
     body: 'This article has react and javascript tags. Hello React is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -15,6 +17,7 @@ module.exports = {
   },
   '3': {
     id: 3,
+    slug: 'react-conf',
     tags: ['react'],
     title: 'React Conf',
     body: 'Conf Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -22,6 +25,7 @@ module.exports = {
   },
   '4': {
     id: 4,
+    slug: 'javascript30',
     tags: ['javascript'],
     title: 'Javascript30',
     body: 'JS30 React Lifecycle Methods: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -29,6 +33,7 @@ module.exports = {
   },
   '5': {
     id: 5,
+    slug: 'js-training-by-kyle-simpson',
     tags: ['javascript'],
     title: 'JS training by Kyle Simpson',
     body: 'About Kyle and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -36,6 +41,7 @@ module.exports = {
   },
   '6': {
     id: 6,
+    slug: 'js-graphic',
     tags: ['javascript'],
     title: 'JS Graphic',
     body: 'Graphic and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -43,6 +49,7 @@ module.exports = {
   },
   '7': {
     id: 7,
+    slug: 'all-about-css-elements',
     tags: ['css'],
     title: 'All about CSS elements',
     body: 'CSS ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -50,6 +57,7 @@ module.exports = {
   },
   '8': {
     id: 8,
+    slug: 'css-and-javascript',
     tags: ['css', 'javascript'],
     title: 'CSS and JavaScript',
     body: 'CSS and JS ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -57,6 +65,7 @@ module.exports = {
   },
   '9': {
     id: 9,
+    slug: 'css-in-react-with-styled-components',
     tags: ['css', 'react'],
     title: 'CSS in React with Styled Components',
     body: 'Styled Components ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
