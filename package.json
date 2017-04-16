@@ -1,0 +1,16 @@
+{
+  "name": "reading-list-api",
+  "version": "1.0.0",
+  "description": "resource server for reading-list-app",
+  "main": "src/index.js",
+  "repository": "https://github.com/PiotrBerebecki/reading-list-api.git",
+  "author": "PiotrBerebecki",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
