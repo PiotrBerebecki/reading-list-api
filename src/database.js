@@ -1,9 +1,9 @@
 module.exports = {
   '1': {
     id: 1,
-    slug: 'react-componentdidmount',
+    slug: 'react-componentdidmount-tutorial',
     tags: ['react'],
-    title: 'React ComponentDidMount',
+    title: 'React ComponentDidMount Tutorial',
     body: 'About React Lifecycle Methods: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
     image_url: 'https://raw.githubusercontent.com/hex13/atom-lupa/master/screenshot-main.jpg'
   },

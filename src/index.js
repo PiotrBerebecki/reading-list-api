@@ -12,6 +12,7 @@ app.get('/tag/', (req, res) => {
     .filter(key => database[key].tags.includes(requestedTag))
     .map(id => database[id]);
 
+  res.header('Access-Control-Allow-Origin', '*');
   res.send(articlesToSend);
 });
 
