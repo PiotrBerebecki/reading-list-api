@@ -2,6 +2,9 @@ module.exports = {
   '1': {
     id: 1,
     slug: 'react-componentdidmount-tutorial',
+    author_display_name: 'Daniel Green',
+    author_avatar_url: 'https://cdn-images-1.medium.com/fit/c/40/40/0*LWuBeAzzd-0eY1EP.jpeg',
+    date_posted: 1492375244000,
     tags: ['react'],
     title: 'React ComponentDidMount Tutorial',
     body: 'About React Lifecycle Methods: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -10,6 +13,9 @@ module.exports = {
   '2': {
     id: 2,
     slug: 'react-a-javascript-library',
+    author_display_name: 'Sophie Jones',
+    author_avatar_url: 'https://cdn-images-1.medium.com/fit/c/40/40/0*KJaj2sb2ARi7JT7W.jpeg',
+    date_posted: 1492288844000,
     tags: ['react', 'javascript'],
     title: 'React - A JavaScript Library',
     body: 'This article has react and javascript tags. Hello React is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -18,6 +24,9 @@ module.exports = {
   '3': {
     id: 3,
     slug: 'react-conf',
+    author_display_name: 'Mike Sheridan',
+    author_avatar_url: 'https://cdn-images-1.medium.com/fit/c/36/36/0*tjQeIZRg2Ce1JHve.jpeg',
+    date_posted: 1492116044000,
     tags: ['react'],
     title: 'React Conf',
     body: 'Conf Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -26,6 +35,9 @@ module.exports = {
   '4': {
     id: 4,
     slug: 'javascript30',
+    author_display_name: 'Tony Walls',
+    author_avatar_url: 'https://cdn-images-1.medium.com/fit/c/36/36/1*U0KDnRxGsgdj5KPJRIZsUw.jpeg',
+    date_posted: 1491941444000,
     tags: ['javascript'],
     title: 'Javascript30',
     body: 'JS30 React Lifecycle Methods: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -34,6 +46,9 @@ module.exports = {
   '5': {
     id: 5,
     slug: 'js-training-by-kyle-simpson',
+    author_display_name: 'Mia Douglas',
+    author_avatar_url: 'https://cdn-images-1.medium.com/fit/c/40/40/0*yQFBjmV4hHaA8NX5.png',
+    date_posted: 1491336644000,
     tags: ['javascript'],
     title: 'JS training by Kyle Simpson',
     body: 'About Kyle and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -42,6 +57,9 @@ module.exports = {
   '6': {
     id: 6,
     slug: 'js-graphic',
+    author_display_name: 'Chris Monty',
+    author_avatar_url: 'https://cdn-images-1.medium.com/fit/c/36/36/1*_FB-MBhCP6dUlQVJalt8Cw.jpeg',
+    date_posted: 1491163844000,
     tags: ['javascript'],
     title: 'JS Graphic',
     body: 'Graphic and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -50,6 +68,9 @@ module.exports = {
   '7': {
     id: 7,
     slug: 'all-about-css-elements',
+    author_display_name: 'Vinnie Vega',
+    author_avatar_url: 'https://cdn-images-1.medium.com/fit/c/40/40/1*3RUkFdxYcdY1CioWxKTO-Q.jpeg',
+    date_posted: 1491077444000,
     tags: ['css'],
     title: 'All about CSS elements',
     body: 'CSS ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -58,6 +79,9 @@ module.exports = {
   '8': {
     id: 8,
     slug: 'css-and-javascript',
+    author_display_name: 'Mark Dean',
+    author_avatar_url: 'https://cdn-images-1.medium.com/fit/c/36/36/1*4lBJHsM8lkjtqNNzh7Fl_g.jpeg',
+    date_posted: 1490901044000,
     tags: ['css', 'javascript'],
     title: 'CSS and JavaScript',
     body: 'CSS and JS ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',
@@ -66,6 +90,9 @@ module.exports = {
   '9': {
     id: 9,
     slug: 'css-in-react-with-styled-components',
+    author_display_name: 'Sandra Chaplin',
+    author_avatar_url: 'https://cdn-images-1.medium.com/fit/c/36/36/1*5oxeRfaUsGcs7koBDfBGpA.jpeg',
+    date_posted: 1490814644000,
     tags: ['css', 'react'],
     title: 'CSS in React with Styled Components',
     body: 'Styled Components ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque nesciunt nobis voluptas. Deserunt optio vero pariatur quidem commodi laudantium dolore eligendi. Aliquam impedit soluta obcaecati aut. Ab, facilis, molestiae.',

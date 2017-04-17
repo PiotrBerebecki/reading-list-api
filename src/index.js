@@ -1,16 +1,23 @@
 const express = require('express');
-const database = require('./database');
+const querystring = require('querystring');
+
+const { getArticlesByQuery } = require('./database/get');
+const pipe = require('./helpers/pipe');
 
 
 const app = express();
 
 
-app.get('/tag/', (req, res) => {
-  const requestedTag = req.query.q;
+app.get('/:section/', (req, res) => {
 
-  const articlesToSend = Object.keys(database)
-    .filter(key => database[key].tags.includes(requestedTag))
-    .map(id => database[id]);
+  const getProp = (reqObj, key, prop) => {
+    return reqObj[key][prop];
+  }
+
+  const getParams = getProp.bind(null, req, 'params')
+  const getQuery = getProp.bind(null, req, 'query')
+
+  const articlesToSend = pipe(getParams, getQuery, getArticlesByQuery)(Object.keys(req.params)[0]);
 
   res.header('Access-Control-Allow-Origin', '*');
   res.send(articlesToSend);
