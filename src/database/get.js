@@ -1,15 +1,26 @@
-const database = require('./database');
+const connect = require('./db-connect');
 const formatDate = require('./../lib/formatDate');
 
 
-const getArticlesByQuery = (requestedTag) => {
-  return Object.keys(database)
-    .filter(key => database[key].tags.includes(requestedTag))
-    .map(id => database[id])
-    .map(article => Object.assign({}, article, {date_posted: formatDate(article.date_posted)}))
+const get = {};
+
+
+get.articlesByQuery = (requestedTag, callback) => {
+
+  const sqlQuery = `
+    SELECT u.avatar_url as author_avatar_url, u.display_name as author_display_name, a.date_posted, a.reading_time, a.image_url, a.title, a.body_text FROM articles as a
+    INNER JOIN users as u
+    ON u.id = a.author_id
+    WHERE tags = $1;
+  `;
+
+  connect.query(sqlQuery, [requestedTag], (err, articles) => {
+    if (err) { return callback(new Error('Database error')); }
+
+    callback(null, articles.rows);
+  })
+
 };
 
 
-module.exports = {
-  getArticlesByQuery
-};
+module.exports = get;

@@ -8,9 +8,13 @@
   "license": "MIT",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "NODE_ENV=dev nodemon src/index.js",
+    "dbBuild:dev": "NODE_ENV=dev node database-build/db-build.js",
+    "dbBuild:prod": "node database-build/db-build.js"
   },
   "dependencies": {
-    "express": "^4.15.2"
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "pg": "^6.1.5"
   }
 }
